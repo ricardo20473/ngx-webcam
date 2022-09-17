@@ -48,12 +48,12 @@ the <a href="https://github.com/basst314/ngx-webcam-demo" target="_blank">Demo-P
 
 1. Install the library via standard npm command:
 
-`npm install --save ngx-webcam`
+`npm install --save ngx-custom-webcam`
 
 2. Import the `WebcamModule` into your Angular module:
 
 ```typescript
-import {WebcamModule} from 'ngx-webcam';
+import {WebcamModule} from 'ngx-custom-webcam';
 
 @NgModule({
   imports: [
