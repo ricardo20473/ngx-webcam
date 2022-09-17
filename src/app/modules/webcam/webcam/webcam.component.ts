@@ -388,7 +388,7 @@ export class WebcamComponent implements AfterViewInit, OnDestroy {
    * This prevents the webcam from being indicated as active,
    * even if it is no longer used by this component.
    */
-  private stopMediaTracks() {
+  public stopMediaTracks() {
     if (this.mediaStream && this.mediaStream.getTracks) {
       // pause video to prevent mobile browser freezes
       this.nativeVideoElement.pause();
